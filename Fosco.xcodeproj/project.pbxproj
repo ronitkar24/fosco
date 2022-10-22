@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D1ED85B29041621007DD5FB /* FoscoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED85A29041621007DD5FB /* FoscoApp.swift */; };
+		4D1ED85D29041621007DD5FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED85C29041621007DD5FB /* ContentView.swift */; };
+		4D1ED85F29041622007DD5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1ED85E29041622007DD5FB /* Assets.xcassets */; };
+		4D1ED86229041622007DD5FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1ED86129041622007DD5FB /* Preview Assets.xcassets */; };
+		4D1ED86C29041623007DD5FB /* FoscoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED86B29041623007DD5FB /* FoscoTests.swift */; };
+		4D1ED87629041623007DD5FB /* FoscoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED87529041623007DD5FB /* FoscoUITests.swift */; };
+		4D1ED87829041623007DD5FB /* FoscoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED87729041623007DD5FB /* FoscoUITestsLaunchTests.swift */; };
+		4D1ED88529041894007DD5FB /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED88429041894007DD5FB /* ResourcesView.swift */; };
+		4D1ED88729041B05007DD5FB /* ResourceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED88629041B05007DD5FB /* ResourceCard.swift */; };
+		4D1ED889290432F6007DD5FB /* ResourceCard2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED888290432F6007DD5FB /* ResourceCard2.swift */; };
+		4D1ED88B29043310007DD5FB /* ResourceCard3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED88A29043310007DD5FB /* ResourceCard3.swift */; };
+		4D1ED88D29043764007DD5FB /* DailyFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED88C29043764007DD5FB /* DailyFactView.swift */; };
+		4D1ED88F29043864007DD5FB /* DailyFactCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED88E29043864007DD5FB /* DailyFactCard.swift */; };
+		4D1ED891290440DD007DD5FB /* DailyFactCard2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED890290440DD007DD5FB /* DailyFactCard2.swift */; };
+		4D1ED8932904423C007DD5FB /* DailyFactCard3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED8922904423C007DD5FB /* DailyFactCard3.swift */; };
+		4D1ED895290442FC007DD5FB /* DailyFactCard4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED894290442FC007DD5FB /* DailyFactCard4.swift */; };
+		4D1ED8972904459F007DD5FB /* DailyFactCard5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED8962904459F007DD5FB /* DailyFactCard5.swift */; };
+		4D1ED89929044E29007DD5FB /* CheckupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED89829044E29007DD5FB /* CheckupView.swift */; };
+		4D1ED89B29045402007DD5FB /* OldDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED89A29045402007DD5FB /* OldDate.swift */; };
+		4D1ED89D29046786007DD5FB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED89C29046786007DD5FB /* Extensions.swift */; };
+		4D1ED89F29046DC2007DD5FB /* ResourceCard4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ED89E29046DC2007DD5FB /* ResourceCard4.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D1ED86829041623007DD5FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1ED84F29041621007DD5FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1ED85629041621007DD5FB;
+			remoteInfo = Fosco;
+		};
+		4D1ED87229041623007DD5FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1ED84F29041621007DD5FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1ED85629041621007DD5FB;
+			remoteInfo = Fosco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D1ED85729041621007DD5FB /* Fosco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fosco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1ED85A29041621007DD5FB /* FoscoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoscoApp.swift; sourceTree = "<group>"; };
+		4D1ED85C29041621007DD5FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D1ED85E29041622007DD5FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D1ED86129041622007DD5FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D1ED86729041623007DD5FB /* FoscoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoscoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1ED86B29041623007DD5FB /* FoscoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoscoTests.swift; sourceTree = "<group>"; };
+		4D1ED87129041623007DD5FB /* FoscoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoscoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1ED87529041623007DD5FB /* FoscoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoscoUITests.swift; sourceTree = "<group>"; };
+		4D1ED87729041623007DD5FB /* FoscoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoscoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D1ED88429041894007DD5FB /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
+		4D1ED88629041B05007DD5FB /* ResourceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceCard.swift; sourceTree = "<group>"; };
+		4D1ED888290432F6007DD5FB /* ResourceCard2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceCard2.swift; sourceTree = "<group>"; };
+		4D1ED88A29043310007DD5FB /* ResourceCard3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceCard3.swift; sourceTree = "<group>"; };
+		4D1ED88C29043764007DD5FB /* DailyFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFactView.swift; sourceTree = "<group>"; };
+		4D1ED88E29043864007DD5FB /* DailyFactCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFactCard.swift; sourceTree = "<group>"; };
+		4D1ED890290440DD007DD5FB /* DailyFactCard2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFactCard2.swift; sourceTree = "<group>"; };
+		4D1ED8922904423C007DD5FB /* DailyFactCard3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFactCard3.swift; sourceTree = "<group>"; };
+		4D1ED894290442FC007DD5FB /* DailyFactCard4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFactCard4.swift; sourceTree = "<group>"; };
+		4D1ED8962904459F007DD5FB /* DailyFactCard5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFactCard5.swift; sourceTree = "<group>"; };
+		4D1ED89829044E29007DD5FB /* CheckupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckupView.swift; sourceTree = "<group>"; };
+		4D1ED89A29045402007DD5FB /* OldDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldDate.swift; sourceTree = "<group>"; };
+		4D1ED89C29046786007DD5FB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4D1ED89E29046DC2007DD5FB /* ResourceCard4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceCard4.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D1ED85429041621007DD5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1ED86429041623007DD5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1ED86E29041623007DD5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D1ED84E29041621007DD5FB = {
+			isa = PBXGroup;
+			children = (
+				4D1ED89C29046786007DD5FB /* Extensions.swift */,
+				4D1ED85929041621007DD5FB /* Fosco */,
+				4D1ED86A29041623007DD5FB /* FoscoTests */,
+				4D1ED87429041623007DD5FB /* FoscoUITests */,
+				4D1ED85829041621007DD5FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D1ED85829041621007DD5FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D1ED85729041621007DD5FB /* Fosco.app */,
+				4D1ED86729041623007DD5FB /* FoscoTests.xctest */,
+				4D1ED87129041623007DD5FB /* FoscoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D1ED85929041621007DD5FB /* Fosco */ = {
+			isa = PBXGroup;
+			children = (
+				4D1ED85A29041621007DD5FB /* FoscoApp.swift */,
+				4D1ED85C29041621007DD5FB /* ContentView.swift */,
+				4D1ED89829044E29007DD5FB /* CheckupView.swift */,
+				4D1ED89A29045402007DD5FB /* OldDate.swift */,
+				4D1ED88629041B05007DD5FB /* ResourceCard.swift */,
+				4D1ED888290432F6007DD5FB /* ResourceCard2.swift */,
+				4D1ED88A29043310007DD5FB /* ResourceCard3.swift */,
+				4D1ED89E29046DC2007DD5FB /* ResourceCard4.swift */,
+				4D1ED88429041894007DD5FB /* ResourcesView.swift */,
+				4D1ED88C29043764007DD5FB /* DailyFactView.swift */,
+				4D1ED88E29043864007DD5FB /* DailyFactCard.swift */,
+				4D1ED890290440DD007DD5FB /* DailyFactCard2.swift */,
+				4D1ED8922904423C007DD5FB /* DailyFactCard3.swift */,
+				4D1ED894290442FC007DD5FB /* DailyFactCard4.swift */,
+				4D1ED8962904459F007DD5FB /* DailyFactCard5.swift */,
+				4D1ED85E29041622007DD5FB /* Assets.xcassets */,
+				4D1ED86029041622007DD5FB /* Preview Content */,
+			);
+			path = Fosco;
+			sourceTree = "<group>";
+		};
+		4D1ED86029041622007DD5FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D1ED86129041622007DD5FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D1ED86A29041623007DD5FB /* FoscoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D1ED86B29041623007DD5FB /* FoscoTests.swift */,
+			);
+			path = FoscoTests;
+			sourceTree = "<group>";
+		};
+		4D1ED87429041623007DD5FB /* FoscoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D1ED87529041623007DD5FB /* FoscoUITests.swift */,
+				4D1ED87729041623007DD5FB /* FoscoUITestsLaunchTests.swift */,
+			);
+			path = FoscoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D1ED85629041621007DD5FB /* Fosco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1ED87B29041623007DD5FB /* Build configuration list for PBXNativeTarget "Fosco" */;
+			buildPhases = (
+				4D1ED85329041621007DD5FB /* Sources */,
+				4D1ED85429041621007DD5FB /* Frameworks */,
+				4D1ED85529041621007DD5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fosco;
+			productName = Fosco;
+			productReference = 4D1ED85729041621007DD5FB /* Fosco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D1ED86629041623007DD5FB /* FoscoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1ED87E29041623007DD5FB /* Build configuration list for PBXNativeTarget "FoscoTests" */;
+			buildPhases = (
+				4D1ED86329041623007DD5FB /* Sources */,
+				4D1ED86429041623007DD5FB /* Frameworks */,
+				4D1ED86529041623007DD5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1ED86929041623007DD5FB /* PBXTargetDependency */,
+			);
+			name = FoscoTests;
+			productName = FoscoTests;
+			productReference = 4D1ED86729041623007DD5FB /* FoscoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D1ED87029041623007DD5FB /* FoscoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1ED88129041623007DD5FB /* Build configuration list for PBXNativeTarget "FoscoUITests" */;
+			buildPhases = (
+				4D1ED86D29041623007DD5FB /* Sources */,
+				4D1ED86E29041623007DD5FB /* Frameworks */,
+				4D1ED86F29041623007DD5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1ED87329041623007DD5FB /* PBXTargetDependency */,
+			);
+			name = FoscoUITests;
+			productName = FoscoUITests;
+			productReference = 4D1ED87129041623007DD5FB /* FoscoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D1ED84F29041621007DD5FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4D1ED85629041621007DD5FB = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					4D1ED86629041623007DD5FB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 4D1ED85629041621007DD5FB;
+					};
+					4D1ED87029041623007DD5FB = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 4D1ED85629041621007DD5FB;
+					};
+				};
+			};
+			buildConfigurationList = 4D1ED85229041621007DD5FB /* Build configuration list for PBXProject "Fosco" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D1ED84E29041621007DD5FB;
+			productRefGroup = 4D1ED85829041621007DD5FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D1ED85629041621007DD5FB /* Fosco */,
+				4D1ED86629041623007DD5FB /* FoscoTests */,
+				4D1ED87029041623007DD5FB /* FoscoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D1ED85529041621007DD5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1ED86229041622007DD5FB /* Preview Assets.xcassets in Resources */,
+				4D1ED85F29041622007DD5FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1ED86529041623007DD5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1ED86F29041623007DD5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D1ED85329041621007DD5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1ED88529041894007DD5FB /* ResourcesView.swift in Sources */,
+				4D1ED88F29043864007DD5FB /* DailyFactCard.swift in Sources */,
+				4D1ED85D29041621007DD5FB /* ContentView.swift in Sources */,
+				4D1ED88D29043764007DD5FB /* DailyFactView.swift in Sources */,
+				4D1ED89F29046DC2007DD5FB /* ResourceCard4.swift in Sources */,
+				4D1ED85B29041621007DD5FB /* FoscoApp.swift in Sources */,
+				4D1ED891290440DD007DD5FB /* DailyFactCard2.swift in Sources */,
+				4D1ED88729041B05007DD5FB /* ResourceCard.swift in Sources */,
+				4D1ED89929044E29007DD5FB /* CheckupView.swift in Sources */,
+				4D1ED8932904423C007DD5FB /* DailyFactCard3.swift in Sources */,
+				4D1ED889290432F6007DD5FB /* ResourceCard2.swift in Sources */,
+				4D1ED89D29046786007DD5FB /* Extensions.swift in Sources */,
+				4D1ED895290442FC007DD5FB /* DailyFactCard4.swift in Sources */,
+				4D1ED89B29045402007DD5FB /* OldDate.swift in Sources */,
+				4D1ED88B29043310007DD5FB /* ResourceCard3.swift in Sources */,
+				4D1ED8972904459F007DD5FB /* DailyFactCard5.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1ED86329041623007DD5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1ED86C29041623007DD5FB /* FoscoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1ED86D29041623007DD5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1ED87629041623007DD5FB /* FoscoUITests.swift in Sources */,
+				4D1ED87829041623007DD5FB /* FoscoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D1ED86929041623007DD5FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1ED85629041621007DD5FB /* Fosco */;
+			targetProxy = 4D1ED86829041623007DD5FB /* PBXContainerItemProxy */;
+		};
+		4D1ED87329041623007DD5FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1ED85629041621007DD5FB /* Fosco */;
+			targetProxy = 4D1ED87229041623007DD5FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D1ED87929041623007DD5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D1ED87A29041623007DD5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D1ED87C29041623007DD5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fosco/Preview Content\"";
+				DEVELOPMENT_TEAM = CH3QRBE463;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to conduct recordings of your lungs.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papai.Fosco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D1ED87D29041623007DD5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fosco/Preview Content\"";
+				DEVELOPMENT_TEAM = CH3QRBE463;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to your microphone to conduct recordings of your lungs.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papai.Fosco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4D1ED87F29041623007DD5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papai.FoscoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fosco.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fosco";
+			};
+			name = Debug;
+		};
+		4D1ED88029041623007DD5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papai.FoscoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fosco.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fosco";
+			};
+			name = Release;
+		};
+		4D1ED88229041623007DD5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papai.FoscoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fosco;
+			};
+			name = Debug;
+		};
+		4D1ED88329041623007DD5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = papai.FoscoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fosco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D1ED85229041621007DD5FB /* Build configuration list for PBXProject "Fosco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1ED87929041623007DD5FB /* Debug */,
+				4D1ED87A29041623007DD5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1ED87B29041623007DD5FB /* Build configuration list for PBXNativeTarget "Fosco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1ED87C29041623007DD5FB /* Debug */,
+				4D1ED87D29041623007DD5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1ED87E29041623007DD5FB /* Build configuration list for PBXNativeTarget "FoscoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1ED87F29041623007DD5FB /* Debug */,
+				4D1ED88029041623007DD5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1ED88129041623007DD5FB /* Build configuration list for PBXNativeTarget "FoscoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1ED88229041623007DD5FB /* Debug */,
+				4D1ED88329041623007DD5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D1ED84F29041621007DD5FB /* Project object */;
+}
